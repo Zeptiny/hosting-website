@@ -24,6 +24,10 @@
     }
 
     .vps-items{
-        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg
+        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg hover:bg-surfaceContainer transition duration-300
+    }
+
+    .dedicated-container{
+        @apply bg-surfaceContainerLow hover:bg-surfaceContainer transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 }
