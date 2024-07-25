@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" async>
+    <link rel="stylesheet" href="font-files/inter.css" async>
+</head>
+<body class="bg-surface">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 backdrop-blur px-4 lg:px-0">
+        <div class="flex flex-row items-center mx-auto justify-between max-w-screen-lg h-12">
+        <div class="hidden md:block">
+            <a href="/">Nyuu.host</a>
+            <!-- Logo -->
+        </div>
+        <div>
+            <ul class="flex flex-row space-x-4">
+            <li>
+                <a class="nav-item default-hover" href="#services">Minecraft</a>
+            </li>
+            <li>
+                <a class="nav-item default-hover" href="#projects">VPS</a>
+            </li>
+            <li>
+                <a class="nav-item default-hover" href="#contact">Dedicado</a>
+            </li>
+            </ul>
+        </div>
+        <div class="flex flex-row">
+            <!-- Theme toggle -->
+            <div>
+            <button
+                id="theme-toggle"
+                type="button"
+                class="default-hover text-sm p-2.5 rounded-lg"
+            >
+            <svg
+                id="theme-toggle-dark-icon"
+                class="w-5 h-5 hidden"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                ></path>
+            </svg>
+            <svg
+                id="theme-toggle-light-icon"
+                class="w-5 h-5 hidden"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            ></path>
+            </svg>
+            </button>
+            </div>
+            <!-- End Theme toggle -->
+        </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <main class="relative">
+    <!-- Hero -->
+     <div class="bg-[url('/img/background-minecraft.jpg')] bg-no-repeat bg-cover bg-bottom">
+        <div class="bg-gradient-to-t from-black text-onSurface h-[38rem] flex flex-col px-4 lg:px-0 justify-center text-center">
+            <div class="max-w-screen-lg mx-auto h-[22rem] lg:h-[28rem]">
+                <h1 class="font-bold text-7xl mb-2 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">A hospedagem que você precisa!</h1>
+                <div class="flex justify-center mt-8 animate-bounce">
+                    <img class="animate-[pulse_1s_infinite]" src="img/arrow-downward.svg">
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- End Hero -->
+
+    
+    </main>
+
+    <footer class="bg-surfaceContainerHigh mt-8">
+        <div class="mx-auto max-w-screen-xl p-2">
+
+            <div class="flex flex-row justify-between">
+                <div>
+                    <h1 class="text-lg font-bold">Nyuu.host</h1>
+                </div>
+                <div class="flex flex-row space-x-4">
+                    <a>Jogos</a>
+                    <a>VPS</a>
+                    <a>Dedicados</a>
+                    <a>Contato</a>
+                    <a>Termos</a>
+                    <a>Privacidade</a>
+                </div>
+                <div>
+                    <a>Discord</a>
+                </div>
+            </div>
+
+            <div class="flex flex-row justify-between">
+                <p class="text-sm text-slate-700 pt-2">CNPJ: 00.000.000/0000-00</p>
+                <p class="text-sm text-slate-700 pt-2">© 2024 Nyuu.host</p>
+            </div>
+        </div>
+    </footer>
+  <script src="js/dark-mode.js"></script>
+</body>
+</html>
