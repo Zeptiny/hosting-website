@@ -30,4 +30,8 @@
     .dedicated-container{
         @apply bg-surfaceContainerLow hover:bg-surfaceContainer transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
+
+    .game-items-container{
+        @apply bg-surfaceContainer m-1 p-2 rounded-lg
+    }
 }
