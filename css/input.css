@@ -22,4 +22,8 @@
     .services-image{
         @apply rounded-lg h-fit
     }
+
+    .vps-items{
+        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg
+    }
 }
