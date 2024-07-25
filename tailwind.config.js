@@ -24,11 +24,12 @@ module.exports = {
         'dark-tertiary':'#f38fcb',
         'dark-onTertiary':'#F2F2F2',
 
-        'surface':'#0F172A',//Background - slate-900
-        'onSurface':'#D1D1D1',//Text on Background
-        'surfaceContainerLow':'#334155',//Container on background
-        'surfaceContainer':'#1E293B',//Container on background - slate-800
-        'surfaceContainerHigh':'#020617',//Container on background
+        'surface':'#f1f5f9',//Background
+        'onLow':'#64748b',//Text on Background
+        'onSurface':'#1e293b1',//Text on Background
+        'surfaceContainerLow':'#e2e8f0',//Container on background
+        'surfaceContainer':'#cbd5e1',//Container on background
+        'surfaceContainerHigh':'#94a3b8',//Container on background
         'primary':'#ffe3f4',//Primary Color
         'onPrimary':'#F2F2F2',//Text on Primary Color
         'secondary':'#fff0f5',//Yada Yada...
