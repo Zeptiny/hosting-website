@@ -16,22 +16,26 @@
         @apply hover:bg-slate-400 hover:text-slate-50;
     }
 
+    .default-hover-card{
+        @apply hover:bg-surfaceContainer hover:border-tertiary hover:scale-[1.025] transition
+    }
+
     .services-card{
-        @apply border rounded-lg m-2 bg-surfaceContainer border-2 border-surfaceContainerHigh
+        @apply default-hover-card rounded-lg m-2 bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition 
     }
     .services-image{
         @apply rounded-lg h-fit
     }
 
     .vps-items{
-        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg transition duration-300
+        @apply mx-1 text-sm bg-surfaceContainer p-1 rounded-lg transition duration-300
     }
 
     .dedicated-container{
-        @apply bg-surfaceContainerLow border-2 border-surfaceContainerHigh hover:bg-surfaceContainer hover:scale-[1.025] transition duration-300 rounded-lg flex flex-row p-2 justify-between
+        @apply default-hover-card default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh  transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 
     .game-items-container{
-        @apply bg-surfaceContainer border-2 border-surfaceContainerHigh hover:border-tertiary transition m-1 p-4 rounded-lg col-span-3
+        @apply bg-surfaceContainer border-2 border-surfaceContainerHigh  transition m-1 p-4 rounded-lg col-span-3
     }
 }
