@@ -28,7 +28,7 @@
     }
 
     .dedicated-container{
-        @apply bg-surfaceContainerLow border-2 border-surfaceContainerHigh hover:bg-surfaceContainer transition duration-300 rounded-lg flex flex-row p-2 justify-between
+        @apply bg-surfaceContainerLow border-2 border-surfaceContainerHigh hover:bg-surfaceContainer hover:scale-[1.025] transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 
     .game-items-container{
