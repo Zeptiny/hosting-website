@@ -37,7 +37,7 @@
 
 
     .game-features-container{
-        @apply hover:bg-surfaceContainer hover:border-tertiary bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-3
+        @apply hover:bg-surfaceContainer bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-3
     }
 
     .game-items-container{

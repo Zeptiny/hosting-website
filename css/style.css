@@ -615,8 +615,6 @@ video {
 }
 
 .game-features-container:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 87 51 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
