@@ -32,6 +32,6 @@
     }
 
     .game-items-container{
-        @apply bg-surfaceContainer m-1 p-2 rounded-lg
+        @apply bg-surfaceContainer border-2 border-surfaceContainerHigh hover:border-tertiary transition m-1 p-4 rounded-lg col-span-3
     }
 }
