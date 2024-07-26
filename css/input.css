@@ -13,22 +13,22 @@
         @apply p-2 rounded-md;
     }
     .default-hover{
-        @apply dark:hover:bg-surfaceContainer dark:hover:text-slate-100 hover:bg-slate-400 hover:text-slate-50;
+        @apply hover:bg-slate-400 hover:text-slate-50;
     }
 
     .services-card{
-        @apply border border-secondary rounded-lg m-2 bg-surfaceContainer
+        @apply border rounded-lg m-2 bg-surfaceContainer border-2 border-surfaceContainerHigh
     }
     .services-image{
         @apply rounded-lg h-fit
     }
 
     .vps-items{
-        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg hover:bg-surfaceContainer transition duration-300
+        @apply mx-1 text-sm bg-surfaceContainerLow p-1 rounded-lg transition duration-300
     }
 
     .dedicated-container{
-        @apply bg-surfaceContainerLow hover:bg-surfaceContainer transition duration-300 rounded-lg flex flex-row p-2 justify-between
+        @apply bg-surfaceContainerLow border-2 border-surfaceContainerHigh hover:bg-surfaceContainer transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 
     .game-items-container{
