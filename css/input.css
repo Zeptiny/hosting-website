@@ -32,7 +32,7 @@
     }
 
     .dedicated-container{
-        @apply default-hover-card default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh  transition duration-300 rounded-lg flex flex-row p-2 justify-between
+        @apply default-hover-card default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 
 
@@ -41,6 +41,6 @@
     }
 
     .game-items-container{
-        @apply default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-3
+        @apply default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-6 md:col-span-3
     }
 }
