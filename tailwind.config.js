@@ -26,7 +26,7 @@ module.exports = {
         'dark-onTertiary':'#F2F2F2',
 
         'surface':'#f1f5f9',//Background
-        'onLow':'#64748b',//Text on Background
+        'onLow':'#5c6a80',//Text on Background
         'onSurface':'#1e293b1',//Text on Background
         'surfaceContainerLow':'#e2e8f0',//Container on background
         'surfaceContainer':'#cbd5e1',//Container on background
