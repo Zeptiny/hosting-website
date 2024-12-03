@@ -1432,6 +1432,10 @@ p:where(.dark, .dark *) {
   background-color: rgb(39 53 76 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:fill-dark-onSurface:where(.dark, .dark *) {
+  fill: #d1d1d1;
+}
+
 .dark\:text-dark-onLow:where(.dark, .dark *) {
   --tw-text-opacity: 1;
   color: rgb(137 158 194 / var(--tw-text-opacity, 1));
