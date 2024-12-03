@@ -1042,6 +1042,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-clip {
+  overflow: clip;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -1103,6 +1107,10 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/img\/animated-bg\.svg\'\)\] {
+  background-image: url('/img/animated-bg.svg');
 }
 
 .from-black {
