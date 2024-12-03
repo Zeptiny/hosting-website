@@ -1142,6 +1142,19 @@ p:where(.dark, .dark *) {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
 }
 
+.bg-dark-surface {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
+}
+
 .bg-\[url\(\'\/img\/animated-bg\.svg\'\)\] {
   background-image: url('/img/animated-bg.svg');
 }
@@ -1176,6 +1189,20 @@ p:where(.dark, .dark *) {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-dark-surface {
+  --tw-gradient-from: #0F172A var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-20\% {
+  --tw-gradient-from-position: 20%;
+}
+
+.from-10\% {
+  --tw-gradient-from-position: 10%;
+}
+
 .via-green-500 {
   --tw-gradient-to: rgb(34 197 94 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #22c55e var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1194,12 +1221,36 @@ p:where(.dark, .dark *) {
   --tw-gradient-to: #3730a3 var(--tw-gradient-to-position);
 }
 
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
 .to-90\% {
   --tw-gradient-to-position: 90%;
 }
 
+.to-50\% {
+  --tw-gradient-to-position: 50%;
+}
+
+.to-100\% {
+  --tw-gradient-to-position: 100%;
+}
+
+.to-20\% {
+  --tw-gradient-to-position: 20%;
+}
+
+.to-0\% {
+  --tw-gradient-to-position: 0%;
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-clip-content {
+  background-clip: content-box;
 }
 
 .bg-clip-text {
@@ -1439,6 +1490,18 @@ p:where(.dark, .dark *) {
 .dark\:bg-dark-surfaceContainerLow:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(39 53 76 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:bg-opacity-50:where(.dark, .dark *) {
+  --tw-bg-opacity: 0.5;
+}
+
+.dark\:bg-opacity-70:where(.dark, .dark *) {
+  --tw-bg-opacity: 0.7;
+}
+
+.dark\:bg-opacity-40:where(.dark, .dark *) {
+  --tw-bg-opacity: 0.4;
 }
 
 .dark\:fill-dark-onSurface:where(.dark, .dark *) {
