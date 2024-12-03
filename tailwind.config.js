@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         'dark-surface':'#0F172A',//Background - slate-900
         'dark-onLow':'#899ec2',//Text on Background
-        'dark-onSurface':'#c4c4c4',//Text on Background
+        'dark-onSurface':'#d1d1d1',//Text on Background
         'dark-surfaceContainerLow':'#27354c',//Container on background
         'dark-surfaceContainer':'#1E293B',//Container on background - slate-800
         'dark-surfaceContainerHigh':'#151d2a',//Container on background

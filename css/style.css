@@ -556,7 +556,7 @@ video {
 
 p:where(.dark, .dark *) {
   --tw-text-opacity: 1;
-  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .title {
@@ -604,7 +604,7 @@ p:where(.dark, .dark *) {
 
 .default-hover-interactable:where(.dark, .dark *) {
   --tw-text-opacity: 1;
-  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .default-hover-interactable:hover:where(.dark, .dark *) {
@@ -718,7 +718,7 @@ p:where(.dark, .dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
-  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .dedicated-container {
@@ -860,7 +860,7 @@ p:where(.dark, .dark *) {
 
 .game-items-container:where(.dark, .dark *) {
   --tw-text-opacity: 1;
-  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .absolute {
@@ -1019,16 +1019,6 @@ p:where(.dark, .dark *) {
 
 .border-collapse {
   border-collapse: collapse;
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-\[pulse_1s_infinite\] {
-  animation: pulse 1s infinite;
 }
 
 @keyframes bounce {
@@ -1220,22 +1210,6 @@ p:where(.dark, .dark *) {
   background-repeat: no-repeat;
 }
 
-.fill-blue-700 {
-  fill: #1d4ed8;
-}
-
-.fill-blue-500 {
-  fill: #3b82f6;
-}
-
-.stroke-blue-700 {
-  stroke: #1d4ed8;
-}
-
-.stroke-current {
-  stroke: currentColor;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1357,26 +1331,6 @@ p:where(.dark, .dark *) {
   color: transparent;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
-}
-
-.text-surfaceContainerHigh {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
-}
-
-.text-surfaceContainerLow {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity, 1));
-}
-
-.text-slate-900 {
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity, 1));
-}
-
 .backdrop-blur {
   --tw-backdrop-blur: blur(8px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1485,15 +1439,5 @@ p:where(.dark, .dark *) {
 
 .dark\:text-dark-onSurface:where(.dark, .dark *) {
   --tw-text-opacity: 1;
-  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-dark-surfaceContainerHigh:where(.dark, .dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(21 29 42 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-slate-200:where(.dark, .dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity, 1));
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
