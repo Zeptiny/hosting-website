@@ -1310,7 +1310,7 @@ p:where(.dark, .dark *) {
 
 .text-onLow {
   --tw-text-opacity: 1;
-  color: rgb(92 106 128 / var(--tw-text-opacity, 1));
+  color: rgb(84 97 117 / var(--tw-text-opacity, 1));
 }
 
 .text-onSurface {
