@@ -33,7 +33,7 @@
     }
 
     .services-image{
-        @apply rounded-lg h-fit
+        @apply rounded-t-lg h-fit
     }
 
     .vps-items{

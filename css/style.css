@@ -695,7 +695,8 @@ p:where(.dark, .dark *) {
 .services-image {
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .vps-items {
