@@ -14,24 +14,24 @@ Footer responsivo em diferentes resoluções
     <link rel="stylesheet" href="css/style.css" async>
     <link rel="stylesheet" href="font-files/inter.css" async>
 </head>
-<body class="bg-surface">
+<body class="bg-surface dark:bg-dark-surface bg-[url('/img/animated-bg.svg')] bg-no-repeat bg-cover backdrop-blur-3xl">
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 backdrop-blur px-4 lg:px-0">
         <div class="flex flex-row items-center mx-auto justify-between max-w-screen-lg h-12">
-        <div class="hidden md:block">
+        <div class="hidden md:block dark:text-dark-onSurface">
             <a href="/">Nyuu.host</a>
             <!-- Logo -->
         </div>
         <div>
             <ul class="flex flex-row space-x-4">
             <li>
-                <a class="nav-item default-hover-interactable" href="#services">Minecraft</a>
+                <a class="nav-item default-hover-interactable" href="minecraft.html">Minecraft</a>
             </li>
             <li>
-                <a class="nav-item default-hover-interactable" href="#projects">VPS</a>
+                <a class="nav-item default-hover-interactable" href="#vps">VPS</a>
             </li>
             <li>
-                <a class="nav-item default-hover-interactable" href="#contact">Dedicado</a>
+                <a class="nav-item default-hover-interactable" href="#dedicated">Dedicado</a>
             </li>
             </ul>
         </div>
@@ -88,27 +88,27 @@ Footer responsivo em diferentes resoluções
      <div class="absolute left-0 right-0 z-20 top-[26rem] lg:top-[32rem]">
         <div class="grid grid-cols-6 lg:grid-cols-9 max-w-screen-xl mx-auto">
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Proteção DDoS</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Proteção DDoS</h1>
                 <p>Seu servidor online durante ataques!</p>
             </div>
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Backups off-site</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Backups off-site</h1>
                 <p>Seus arquivos protegidos em outro datacenter!</p>
             </div>
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Suporte a mods/plugins</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Suporte a mods/plugins</h1>
                 <p>Use o que quiser e como quiser!</p>
             </div>
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Java & Bedrock</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Java & Bedrock</h1>
                 <p>Jogue com todos facilmente!</p>
             </div>
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Banco de dados MySQL</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Banco de dados MySQL</h1>
                 <p>Conecte e interligue vários dos seus plugins!</p>
             </div>
             <div class="game-features-container">
-                <h1 class="font-bold text-lg">Sem Slots</h1>
+                <h1 class="font-bold text-lg dark:text-dark-onSurface">Sem Slots</h1>
                 <p>Tenha quantos players quiser!</p>
             </div>
         </div>
@@ -117,7 +117,7 @@ Footer responsivo em diferentes resoluções
 
     <!-- Plans -->
     <div class="mx-auto max-w-screen-xl">
-        <h1 class="text-center font-bold text-3xl text-onSurface p-4 pt-72 sm:pt-36 md:pt-32">Encomende o seu novo servidor de Minecraft!</h1>
+        <h1 class="dark:text-dark-onSurface text-center font-bold text-3xl text-onSurface p-4 pt-72 sm:pt-36 md:pt-32">Encomende o seu novo servidor de Minecraft!</h1>
         <p class="uppercase text-tertiary font-bold">1. Selecione o seu plano</p>
         <p>Prometo que farei um seletor futuramente</p>
         <p class="uppercase text-tertiary font-bold">2. Selecione a sua localização</p>
@@ -125,9 +125,11 @@ Footer responsivo em diferentes resoluções
     </div>
     <div class="grid grid-cols-12 max-w-screen-xl mx-auto">
         <a href="https://billing.nyuu.host" class="game-items-container">
-            <h1 class="font-bold text-xl">4GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">4GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>1 vCore Ryzen 9 7950X</li>
                 <li>40GB SSD NVMe</li>
                 <li>1 servidor adicional</li>
@@ -136,9 +138,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container">
-            <h1 class="font-bold text-xl">8GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">8GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>2 vCore Ryzen 9 7950X</li>
                 <li>80GB SSD NVMe</li>
                 <li>2 servidores adicionais</li>
@@ -147,9 +151,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container">
-            <h1 class="font-bold text-xl">12GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">12GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>3 vCore Ryzen 9 7950X</li>
                 <li>120GB SSD NVMe</li>
                 <li>3 servidores adicionais</li>
@@ -158,9 +164,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container">
-            <h1 class="font-bold text-xl">16GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">16GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>4 vCore Ryzen 9 7950X</li>
                 <li>160GB SSD NVMe</li>
                 <li>4 servidores adicionais</li>
@@ -169,9 +177,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container col-span-12 md:col-span-4">
-            <h1 class="font-bold text-xl">20GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">20GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>5 vCore Ryzen 9 7950X</li>
                 <li>200GB SSD NVMe</li>
                 <li>5 servidores adicionais</li>
@@ -180,9 +190,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container col-span-12 md:col-span-4">
-            <h1 class="font-bold text-xl">24GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">24GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>6 vCore Ryzen 9 7950X</li>
                 <li>240GB SSD NVMe</li>
                 <li>6 servidores adicionais</li>
@@ -191,9 +203,11 @@ Footer responsivo em diferentes resoluções
         </a>
 
         <a href="https://billing.nyuu.host"  class="game-items-container col-span-12 md:col-span-4">
-            <h1 class="font-bold text-xl">28GB</h1>
-            <h1 class="text-lg text-slate-800">R$20/Mês</h1>
-            <ul class="mt-1 text-slate-700">
+            <div class="flex justify-between items-center">
+                <h1 class="font-bold text-xl">28GB</h1>
+                <h1 class="text-lg text-tertiary font-bold">R$20/Mês</h1>
+            </div>
+            <ul class="mt-1">
                 <li>7 vCore Ryzen 9 7950X</li>
                 <li>280GB SSD NVMe</li>
                 <li>7 servidores adicionais</li>
@@ -206,61 +220,61 @@ Footer responsivo em diferentes resoluções
 
     <!-- Comparison -->
     <div>
-        <h1 class="text-center font-bold text-3xl text-onSurface p-4">Contra a competição</h1>
+        <h1 class="text-center font-bold text-3xl text-onSurface p-4 dark:text-dark-onSurface">Contra a competição</h1>
     </div>
     <div class="m-1">
-        <div class="border-2 border-surfaceContainerHigh rounded-lg max-w-screen-xl mx-auto relative overflow-x-auto">
-            <table class="table-auto w-full text-xl divide-y-2 divide-surfaceContainer bg-surfaceContainerLow rounded-lg border-collapse overflow-hidden">
+        <div class="border-2 border-surfaceContainerHigh dark:border-dark-surfaceContainerHigh rounded-lg max-w-screen-xl mx-auto relative overflow-x-auto">
+            <table class="table-auto w-full text-xl divide-y-2 divide-surfaceContainer bg-surfaceContainerLow dark:divide-dark-surfaceContainer dark:bg-dark-surfaceContainerLow rounded-lg border-collapse overflow-hidden">
                 <thead>
                   <tr>
-                    <th class="p-2"></th>
-                    <th class="p-2 ">Nyuu.host</th>
-                    <th class="p-2 ">Bomba.host</th>
-                    <th class="p-2 ">Macumba.host</th>
-                    <th class="p-2 ">Carlitos.host</th>
-                    <th class="p-2 ">Abacate.host</th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow"></th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface">Nyuu.host</th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface">Bomba.host</th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface">Macumba.host</th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface">Carlitos.host</th>
+                    <th class="p-2 dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface">Abacate.host</th>
                   </tr>
                 </thead>
-                <tbody class="divide-y-2 divide-surfaceContainer ">
+                <tbody class="divide-y-2 divide-surfaceContainer dark:divide-dark-surfaceContainer">
                   <tr>
-                    <td class="font-bold pl-4 py-1 bg-surfaceContainer">vCPU Dedicados</td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="font-bold pl-4 py-1 bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">vCPU Dedicados</td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td>
                   </tr>
                   <tr>
-                    <td class=" font-bold pl-4 py-1">Server Splitter</td>
-                    <td><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
-                    <td><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td><img class="mx-auto" src="img/check.svg"></td>
-                    <td><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow font-bold pl-4 py-1 dark:text-dark-onSurface">Server Splitter</td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td>
                   </tr>
                   <tr>
-                    <td class="font-bold pl-4 py-1 bg-surfaceContainer">IP Dedicado</td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td>
-                    <td class="bg-surfaceContainer"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="font-bold pl-4 py-1 bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">IP Dedicado</td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface"><img class="mx-auto" src="img/check.svg"></td>
                   </tr>
                   <tr>
-                    <td class=" font-bold pl-4 py-1">Backup off-site</td>
-                    <td><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
-                    <td><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td><img class="mx-auto" src="img/uncheck.svg"></td>
-                    <td><img class="mx-auto" src="img/check.svg"></td>
-                    <td><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow dark:text-dark-onSurface font-bold pl-4 py-1">Backup off-site</td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td> <!-- Nyuu -->
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/uncheck.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td>
+                    <td class="dark:bg-dark-surfaceContainerLow"><img class="mx-auto" src="img/check.svg"></td>
                   </tr>
                   <tr>
-                    <td class="font-bold pl-4 py-1 bg-surfaceContainer">Preço para 8GB</td>
-                    <td class="text-center bg-surfaceContainer">R$80</td> <!-- Nyuu -->
-                    <td class="text-center bg-surfaceContainer">R$120</td>
-                    <td class="text-center bg-surfaceContainer">R$69</td>
-                    <td class="text-center bg-surfaceContainer">R$99.98</td>
-                    <td class="text-center bg-surfaceContainer">R$79.99</td>
+                    <td class="font-bold pl-4 py-1 bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">Preço para 8GB</td>
+                    <td class="text-center bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">R$80</td> <!-- Nyuu -->
+                    <td class="text-center bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">R$120</td>
+                    <td class="text-center bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">R$69</td>
+                    <td class="text-center bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">R$99.98</td>
+                    <td class="text-center bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface">R$79.99</td>
                   </tr>
                 </tbody>
               </table>
@@ -270,7 +284,7 @@ Footer responsivo em diferentes resoluções
     
     </main>
 
-    <footer class="bg-surfaceContainerHigh mt-8">
+    <footer class="bg-surfaceContainerHigh dark:bg-dark-surfaceContainerHigh mt-8 dark:text-dark-onSurface">
         <div class="mx-auto max-w-screen-xl p-2">
 
             <div class="flex flex-row justify-between">
@@ -279,8 +293,8 @@ Footer responsivo em diferentes resoluções
                 </div>
                 <div class="flex flex-row space-x-4">
                     <a href="minecraft.html" class="hover:text-tertiary">Jogos</a>
-                    <a href="index.html#vps" class="hover:text-tertiary">VPS</a>
-                    <a href="index.html#dedicated" class="hover:text-tertiary">Dedicados</a>
+                    <a href="#vps" class="hover:text-tertiary">VPS</a>
+                    <a href="#dedicated" class="hover:text-tertiary">Dedicados</a>
                     <a href="contact.html" class="hover:text-tertiary">Contato</a>
                     <a href="https://puginarug.com/" class="hover:text-tertiary">Termos</a>
                     <a href="https://longdogechallenge.com/" class="hover:text-tertiary">Privacidade</a>
@@ -291,8 +305,8 @@ Footer responsivo em diferentes resoluções
             </div>
 
             <div class="flex flex-row justify-between">
-                <p class="text-sm text-slate-700 pt-2">CNPJ: 00.000.000/0000-00</p>
-                <p class="text-sm text-slate-700 pt-2">© 2024 Nyuu.host</p>
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">CNPJ: 00.000.000/0000-00</p>
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">© 2024 Nyuu.host</p>
             </div>
         </div>
     </footer>

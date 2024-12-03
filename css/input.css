@@ -46,10 +46,10 @@
 
 
     .game-features-container{
-        @apply hover:bg-surfaceContainer bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-3
+        @apply hover:bg-surfaceContainer dark:hover:bg-dark-surfaceContainer bg-surfaceContainerLow dark:bg-dark-surfaceContainerLow border-2 border-surfaceContainerHigh dark:border-dark-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-3
     }
 
     .game-items-container{
-        @apply default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition m-1 p-4 rounded-lg col-span-6 md:col-span-3
+        @apply default-hover-card transition m-1 p-4 rounded-lg col-span-6 md:col-span-3 text-onSurface dark:text-dark-onSurface
     }
 }
