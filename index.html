@@ -13,11 +13,11 @@ Dark mode
     <link rel="stylesheet" href="css/style.css" async>
     <link rel="stylesheet" href="font-files/inter.css" async>
 </head>
-<body class="bg-surface bg-[url('/img/animated-bg.svg')] bg-no-repeat bg-cover backdrop-blur-3xl">
+<body class="bg-surface dark:bg-dark-surface bg-[url('/img/animated-bg.svg')] bg-no-repeat bg-cover backdrop-blur-3xl">
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 backdrop-blur px-4 lg:px-0">
         <div class="flex flex-row items-center mx-auto justify-between max-w-screen-lg h-12">
-        <div class="hidden md:block">
+        <div class="hidden md:block dark:text-dark-onSurface">
             <a href="/">Nyuu.host</a>
             <!-- Logo -->
         </div>
@@ -93,7 +93,7 @@ Dark mode
     <!-- Tenha certeza que as proporções das imagens sejam 16:9 -->
     <div id="games">
         <div>
-            <h1 class="text-center font-bold text-3xl text-onSurface pt-8 pb-2">Servidores de jogos com a melhor performance!</h1>
+            <h1 class="text-center font-bold text-3xl text-onSurface pt-8 pb-2 dark:text-dark-onSurface">Servidores de jogos com a melhor performance!</h1>
         </div>
         <div class="grid grid-cols-3 mx-auto max-w-screen-xl">
             <a href="minecraft.html" class="services-card" >
@@ -118,12 +118,12 @@ Dark mode
     <!-- VPS Servers -->
     <div id="vps" class="mt-8">
         <div>
-            <h1 class="text-center font-bold text-3xl text-onSurface p-4">Servidores Virtuais Privados (VPS)!</h1>
+            <h1 class="text-center font-bold text-3xl text-onSurface p-4 dark:text-dark-onSurface">Servidores Virtuais Privados (VPS)!</h1>
         </div>
         <div class="grid md:grid-cols-2 mx-auto max-w-screen-xl space-y-4 md:space-y-0">
 
-            <a href="https://billing.nyuu.host/vps-budget" class="default-hover-card text-onSurface rounded-lg mx-2 bg-surfaceContainerLow border-2 border-surfaceContainerHigh p-2">
-                <h1 class="font-bold m-2 text-2xl">VPS Budget</h1>
+            <a href="https://billing.nyuu.host/vps-budget" class="default-hover-card text-onSurface rounded-lg mx-2 p-2">
+                <h1 class="font-bold m-2 text-2xl dark:text-dark-onSurface">VPS Budget</h1>
                 <div class="flex flex-row ml-1">
                     <span class="vps-items">Ryzen 5 5600X</span>
                     <span class="vps-items">SSD NVMe</span>
@@ -133,8 +133,8 @@ Dark mode
                 <h2 class="ml-2 mt-1"><span class="font-bold text-tertiary text-lg">Localizações:</span> <span>São Paulo</span>, <span>Miami</span></h2>
             </a>
 
-            <a href="https://billing.nyuu.host/vps-premium" class="default-hover-card text-onSurface rounded-lg mx-2 bg-surfaceContainerLow border-2 border-surfaceContainerHigh p-2">
-                <h1 class="font-bold m-2 text-2xl">VPS Premium</h1>
+            <a href="https://billing.nyuu.host/vps-premium" class="default-hover-card text-onSurface rounded-lg mx-2 p-2">
+                <h1 class="font-bold m-2 text-2xl dark:text-dark-onSurface">VPS Premium</h1>
                 <div class="flex flex-row ml-1">
                     <span class="vps-items">Ryzen 9 7950X</span>
                     <span class="vps-items">SSD NVMe</span>
@@ -150,116 +150,116 @@ Dark mode
 
     <!-- Dedicated servers -->
     <div id="dedicated">
-        <h1 class="text-center font-bold text-3xl text-onSurface p-4 mt-8">Servidores Dedicados!</h1>
+        <h1 class="text-center font-bold text-3xl text-onSurface p-4 mt-8 dark:text-dark-onSurface">Servidores Dedicados!</h1>
     </div>
     <div class="max-w-screen-xl mx-auto p-2">
         <div class="flex flex-col space-y-4">
 
             <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
                 <div>
-                    <h1 class="text-onSurface font-bold">Ryzen 5 5600X</h1>
-                    <p class="text-sm text-onLow">6/12 @ 4.6GHz</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">6/12 @ 4.6GHz</p>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Memória</p>
-                    <h1 class="text-onSurface font-bold">64GB DDR4</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Memória</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Armazenamento</p>
-                    <h1 class="text-onSurface font-bold">2x 512GB NVMe</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Armazenamento</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Rede</p>
-                    <h1 class="text-onSurface font-bold">1GBps @ 10TB</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Rede</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Preço</p>
-                    <h1 class="text-onSurface font-bold">R$499/Mês</h1>
-                </div>
-            </a>
-
-            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
-                <div>
-                    <h1 class="text-onSurface font-bold">Ryzen 5 5600X</h1>
-                    <p class="text-sm text-onLow">6/12 @ 4.6GHz</p>
-                </div>
-                <div>
-                    <p class="text-sm text-onLow">Memória</p>
-                    <h1 class="text-onSurface font-bold">64GB DDR4</h1>
-                </div>
-                <div>
-                    <p class="text-sm text-onLow">Armazenamento</p>
-                    <h1 class="text-onSurface font-bold">2x 512GB NVMe</h1>
-                </div>
-                <div>
-                    <p class="text-sm text-onLow">Rede</p>
-                    <h1 class="text-onSurface font-bold">1GBps @ 10TB</h1>
-                </div>
-                <div>
-                    <p class="text-sm text-onLow">Preço</p>
-                    <h1 class="text-onSurface font-bold">R$499/Mês</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Preço</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
                 </div>
             </a>
 
             <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
                 <div>
-                    <h1 class="text-onSurface font-bold">Ryzen 5 5600X</h1>
-                    <p class="text-sm text-onLow">6/12 @ 4.6GHz</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">6/12 @ 4.6GHz</p>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Memória</p>
-                    <h1 class="text-onSurface font-bold">64GB DDR4</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Memória</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Armazenamento</p>
-                    <h1 class="text-onSurface font-bold">2x 512GB NVMe</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Armazenamento</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Rede</p>
-                    <h1 class="text-onSurface font-bold">1GBps @ 10TB</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Rede</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Preço</p>
-                    <h1 class="text-onSurface font-bold">R$499/Mês</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Preço</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
                 </div>
             </a>
 
             <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
                 <div>
-                    <h1 class="text-onSurface font-bold">Ryzen 5 5600X</h1>
-                    <p class="text-sm text-onLow">6/12 @ 4.6GHz</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">6/12 @ 4.6GHz</p>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Memória</p>
-                    <h1 class="text-onSurface font-bold">64GB DDR4</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Memória</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
                 </div>
                 <div>
-                    <p class="text-sm text-onLow">Armazenamento</p>
-                    <h1 class="text-onSurface font-bold">2x 512GB NVMe</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Armazenamento</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
                 </div>
                 <div>
                     <p class="text-sm text-onLow">Rede</p>
-                    <h1 class="text-onSurface font-bold">1GBps @ 10TB</h1>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
                 </div>
                 <div>
                     <p class="text-sm text-onLow">Preço</p>
-                    <h1 class="text-onSurface font-bold">R$499/Mês</h1>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
+                </div>
+            </a>
+
+            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface dark:text-dark-onSurface font-bold">Ryzen 5 5600X</h1>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">6/12 @ 4.6GHz</p>
+                </div>
+                <div>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Memória</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
+                </div>
+                <div>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Armazenamento</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
+                </div>
+                <div>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Rede</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
+                </div>
+                <div>
+                    <p class="text-sm text-onLow dark:text-dark-onLow">Preço</p>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
                 </div>
             </a>
         </div>
     </div>
     <div class="flex justify-center f">
-        <a href="https://billing.nyuu.host/dedicated-servers" class="font-bold text-xl text-onLow hover:text-tertiary p-1">Quer ver mais opções?</a>
+        <a href="https://billing.nyuu.host/dedicated-servers" class="font-bold text-xl text-onLow dark:text-dark-onLow hover:text-tertiary p-1">Quer ver mais opções?</a>
     </div>
     <!-- End Dedicated servers -->
 
     <!-- Datanceter -->
     <div>
-        <h1 class="text-center font-bold text-3xl text-onSurface pt-8 pb-2">Nossas Localizações</h1>
+        <h1 class="text-center font-bold text-3xl text-onSurface pt-8 pb-2 dark:text-dark-onSurface">Nossas Localizações</h1>
     </div>
     <!-- Background criado em https://bgjar.com -->
     <div class="px-2 max-w-screen-xl mx-auto">
-        <div class="bg-surfaceContainerLow rounded-lg border-2 border-surfaceContainerHigh">
+        <div class="bg-surfaceContainerLow dark:bg-dark-surfaceContainerLow rounded-lg border-2 border-surfaceContainerHigh dark:border-dark-surfaceContainerHigh">
             <img src="img/datacenters.svg">
         </div>
     </div>
@@ -280,7 +280,7 @@ Dark mode
     <!-- End Datanceter -->
     </main>
 
-    <footer class="bg-surfaceContainerHigh mt-8">
+    <footer class="bg-surfaceContainerHigh dark:bg-dark-surfaceContainerHigh mt-8 dark:text-dark-onSurface">
         <div class="mx-auto max-w-screen-xl p-2">
 
             <div class="flex flex-row justify-between">
@@ -301,8 +301,8 @@ Dark mode
             </div>
 
             <div class="flex flex-row justify-between">
-                <p class="text-sm text-slate-700 pt-2">CNPJ: 00.000.000/0000-00</p>
-                <p class="text-sm text-slate-700 pt-2">© 2024 Nyuu.host</p>
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">CNPJ: 00.000.000/0000-00</p>
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">© 2024 Nyuu.host</p>
             </div>
         </div>
     </footer>

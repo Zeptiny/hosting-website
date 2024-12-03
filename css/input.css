@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base{
+    p{
+        @apply dark:text-dark-onSurface;
+    }
+
     .default-container {
         @apply rounded-xl dark:bg-surfaceContainer bg-slate-100 p-3 border-[1px] dark:border-slate-700 border-slate-300;
     }
@@ -17,26 +21,27 @@
     }
 
     .default-hover-interactable{
-        @apply hover:bg-slate-400 hover:text-slate-50 hover:border-tertiary border-2 border-transparent transition;
+        @apply dark:text-dark-onSurface hover:bg-slate-400 dark:hover:bg-dark-surfaceContainerLow hover:text-slate-50 hover:dark:text-dark-onLow hover:border-tertiary border-2 border-transparent transition;
     }
 
     .default-hover-card{
-        @apply hover:bg-surfaceContainer hover:border-tertiary hover:scale-[1.025] transition
+        @apply bg-surfaceContainerLow hover:bg-surfaceContainer dark:bg-dark-surfaceContainerLow hover:dark:bg-dark-surfaceContainer hover:border-tertiary hover:scale-[1.025] transition border-2 border-surfaceContainerHigh dark:border-dark-surfaceContainerHigh
     }
 
     .services-card{
-        @apply default-hover-card rounded-lg m-2 bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition 
+        @apply default-hover-card rounded-lg m-2
     }
+
     .services-image{
         @apply rounded-lg h-fit
     }
 
     .vps-items{
-        @apply mx-1 text-sm bg-surfaceContainer p-1 rounded-lg transition duration-300
+        @apply mx-1 text-sm bg-surfaceContainer dark:bg-dark-surfaceContainer dark:text-dark-onSurface p-1 rounded-lg transition duration-300
     }
 
     .dedicated-container{
-        @apply default-hover-card default-hover-card bg-surfaceContainerLow border-2 border-surfaceContainerHigh transition duration-300 rounded-lg flex flex-row p-2 justify-between
+        @apply default-hover-card border-2 transition duration-300 rounded-lg flex flex-row p-2 justify-between
     }
 
 
