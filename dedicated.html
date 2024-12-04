@@ -1,0 +1,258 @@
+<!-- 
+TO-DO
+Seletor de planos
+Check e X mudarem de cor
+Hero decente
+Footer responsivo em diferentes resoluções 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" async>
+    <link rel="stylesheet" href="font-files/inter.css" async>
+</head>
+<body class="bg-surface dark:bg-dark-surface bg-[url('/img/balls-bg.svg')] bg-no-repeat bg-cover backdrop-blur-3xl">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 backdrop-blur px-4 lg:px-0">
+        <div class="flex flex-row items-center mx-auto justify-between max-w-screen-lg h-12">
+        <div class="hidden md:block dark:text-dark-onSurface">
+            <a href="/">Nyuu.host</a>
+            <!-- Logo -->
+        </div>
+        <div>
+            <ul class="flex flex-row space-x-4">
+            <li>
+                <a class="nav-item default-hover-interactable" href="minecraft.html">Minecraft</a>
+            </li>
+            <li>
+                <a class="nav-item default-hover-interactable" href="#vps">VPS</a>
+            </li>
+            <li>
+                <a class="nav-item default-hover-interactable" href="#dedicated">Dedicado</a>
+            </li>
+            </ul>
+        </div>
+        <div class="flex flex-row">
+            <!-- Theme toggle -->
+            <div>
+            <button
+                id="theme-toggle"
+                type="button"
+                class="default-hover text-sm p-2.5 rounded-lg"
+            >
+            <svg
+                id="theme-toggle-dark-icon"
+                class="w-5 h-5 hidden"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                ></path>
+            </svg>
+            <svg
+                id="theme-toggle-light-icon"
+                class="w-5 h-5 hidden dark:fill-dark-onSurface"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            ></path>
+            </svg>
+            </button>
+            </div>
+            <!-- End Theme toggle -->
+        </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <main class="relative">
+    <!-- Hero -->
+    <div class="mt-24 flex flex-col px-4 lg:px-0 justify-center text-center">
+        <div class="max-w-screen-lg mx-auto h-64 lg:h-96">
+            <h1 class="font-bold p-2 text-7xl mb-2 bg-gradient-to-r from-blue-800 to-green-600 inline-block text-transparent bg-clip-text">Servidores Dedicados!</h1>
+            <p class="font-bold text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum maiores vitae mollitia est facere saepe omnis exercitationem. Non quod labore architecto esse quisquam suscipit vero deserunt, asperiores tenetur dolores nisi.</p>
+        </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Plans -->
+    <div class="mx-auto max-w-screen-xl">
+        <h1 class="dark:text-dark-onSurface text-center font-bold text-3xl text-onSurface p-4 mt-16">Encomende o seu novo servidor Dedicado!</h1>
+        <p class="uppercase text-tertiary font-bold">1. Selecione a sua localização</p>
+        <p>Prometo que farei um seletor futuramente</p>
+        <p class="uppercase text-tertiary font-bold">2. Selecione o plano</p>
+        <p>Prometo que farei um seletor futuramente</p>
+    </div>
+    <div class="max-w-screen-xl mx-auto p-2">
+        <div class="flex flex-col space-y-4">
+            <div class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Processador</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Nucleos/Threads</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">RAM</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Armazenamento</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Rede @ Banda</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Preço</h1>
+                </div>
+            </div>
+
+            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">6/12 @ 4.6GHz</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
+                </div>
+            </a>
+
+            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">6/12 @ 4.6GHz</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
+                </div>
+            </a>
+
+            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">Ryzen 5 5600X</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">6/12 @ 4.6GHz</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
+                </div>
+            </a>
+
+            <a href="https://billing.nyuu.host/dedicated-1" class="dedicated-container">
+                <div>
+                    <h1 class="text-onSurface dark:text-dark-onSurface font-bold">Ryzen 5 5600X</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">6/12 @ 4.6GHz</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">64GB DDR4</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">2x 512GB NVMe</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">1GBps @ 10TB</h1>
+                </div>
+                <div>
+                    <h1 class="text-onSurface font-bold dark:text-dark-onSurface">R$499/Mês</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- End Plans -->
+
+    <!-- Features -->
+    <div class="mx-auto max-w-screen-xl">
+        <div class="grid grid-cols-2">
+            <div class="game-features-container md:col-span-1">
+                <p class="uppercase text-tertiary font-bold">Todos os planos incluem</p>
+                <ul class="text-onSurface dark:text-dark-onSurface">
+                    <li>1+ Tbps de proteção DDoS</li>
+                    <li>1x Ipv4 + /64 IPv¨</li>
+                    <li>1Gbps de rede</li>
+                </ul> 
+            </div>
+            <div class="game-features-container md:col-span-1">
+                <p class="uppercase text-tertiary font-bold">Adicionais</p>
+                <ul class="text-onSurface dark:text-dark-onSurface">
+                    <li>IPv4 adicionais - <span class="text-tertiary">R$15/Mês cada</span></li>
+                    <li>Banda adicional - <span class="text-tertiary">R$10/Mês por TB</span></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+    
+    </main>
+
+    <footer class="bg-surfaceContainerHigh dark:bg-dark-surfaceContainerHigh mt-16 dark:text-dark-onSurface">
+        <div class="mx-auto max-w-screen-xl p-2">
+
+            <div class="flex flex-row justify-between">
+                <div>
+                    <h1 class="text-lg font-bold">Nyuu.host</h1>
+                </div>
+                <div class="flex flex-row space-x-4">
+                    <a href="minecraft.html" class="hover:text-tertiary">Jogos</a>
+                    <a href="#vps" class="hover:text-tertiary">VPS</a>
+                    <a href="#dedicated" class="hover:text-tertiary">Dedicados</a>
+                    <a href="contact.html" class="hover:text-tertiary">Contato</a>
+                    <a href="https://puginarug.com/" class="hover:text-tertiary">Termos</a>
+                    <a href="https://longdogechallenge.com/" class="hover:text-tertiary">Privacidade</a>
+                </div>
+                <div>
+                    <a href="https://dc.nyuu.dev" class="hover:text-tertiary">Discord</a>
+                </div>
+            </div>
+
+            <div class="flex flex-row justify-between">
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">CNPJ: 00.000.000/0000-00</p>
+                <p class="text-sm text-slate-700 dark:text-dark-onLow pt-2">© 2024 Nyuu.host</p>
+            </div>
+        </div>
+    </footer>
+  <script src="js/dark-mode.js"></script>
+</body>
+</html>
